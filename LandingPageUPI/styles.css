@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+
+.navbar-container {
+    display: flex;
+    padding: 15px 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.nav-list ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.brand-logo img {
+    height: 60px;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    margin: 0 100px;
+    gap: 40px;
+    align-items: center;
+}
+
+.content-image img {
+    height: 300px;
+}
+
+.title {
+    font-size: 65px;
+    padding-top: 0px;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    border: solid 0px;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+
+.social-media {
+    text-decoration: none;
+    position: absolute;
+    right: 0px;
+    top: 250px;
+    bottom: 100px;
+
+}
+
+.social-media ul {
+    background-color: red;
+    padding: 5px 10px 5px 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    line-height: 2;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fab {
+   color: white;
+}

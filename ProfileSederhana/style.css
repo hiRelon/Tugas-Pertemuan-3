@@ -1,0 +1,84 @@
+body{
+    font-family: Helvetica;
+    background-color: #F5C3BC;
+}
+
+#header{
+    text-align: center;
+    font-size: larger;
+    color: beige;
+    background-color: #C9485B;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+    color: #3E0703;
+}
+
+.profil{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    text-align: justify;
+    padding-top: 60px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    background-color: #FDEBD0;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px dashed #C9485B;
+}
+
+.profil img{
+    width: 270px;
+    border-radius: 50%;
+    border: 2px dashed #C9485B;
+}
+
+.profil img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.galeri{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.kolom-kartu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.kartu{
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;
+}
+
+.kartu-aktivitas{
+    height: 250px;
+    background-color: #E89DA2;
+    text-align: justify;
+    padding: 1px 15px;
+    border-radius: 20px;
+    border: 2px dashed #C9485B;
+}
